@@ -1,6 +1,6 @@
 <?php
 $nomeSitema = "Cursos Aí!";
-$usuario = ["nome"=>"Felipe"];
+$usuario = ["nome"=>"Vinicius"];
 
 $nomeArquivo = "produto.json";
 $produtos = json_decode(file_get_contents($nomeArquivo), true);
